@@ -1,0 +1,17 @@
+.input {
+  border: none;
+  outline: none;
+  padding: 20px;
+  background-color: honeydew;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  font-family: Yatra One;
+  font-size: x-large;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
