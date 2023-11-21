@@ -5,7 +5,7 @@ import Ingredients from "./Ingredients";
 export default function FoodDetails({ foodId }) {
   let [food, setFood] = useState({});
   let [isLoading, setIsLoading] = useState(true);
-  let apiKey = "35a14e929af6462ba5e6ec26644ba091";
+  let apiKey = "dda57e39c5a6425eb6d9435e302dab03";
   let URL = `https://api.spoonacular.com/recipes/${foodId}/information?apiKey=${apiKey}`;
 
   useEffect(() => {
@@ -13,7 +13,6 @@ export default function FoodDetails({ foodId }) {
       let res = await fetch(URL);
       let data = await res.json();
       setFood(data);
-      console.log(data);
       setIsLoading(false);
     };
     recipeFetch();

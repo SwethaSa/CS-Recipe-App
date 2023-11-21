@@ -7,7 +7,7 @@ export default function Input({ foodData, setFoodData }) {
   let handleChange = (e) => {
     setQuery(e.target.value);
   };
-  let apiKey = "35a14e929af6462ba5e6ec26644ba091";
+  let apiKey = "dda57e39c5a6425eb6d9435e302dab03";
   let URL = `https://api.spoonacular.com/recipes/complexSearch?query=${query}&apiKey=${apiKey}`;
   useEffect(() => {
     let myFood = async () => {

@@ -7,16 +7,17 @@ export default function Item({ food }) {
         <div className={styles.main} key={index}>
           <div className={styles.imageCont}>
             <img
+              className={styles.image}
               src={`https://spoonacular.com/cdn/ingredients_100x100/${items.image}`}
               alt=""
             />
           </div>
           <div className={styles.otherCont}>
             <div>
-              <h3>{items.name}</h3>
+              <h3 className={styles.nameCont}>{items.name}</h3>
             </div>
             <div>
-              <h4>
+              <h4 className={styles.amount}>
                 {items.amount} {items.unit}
               </h4>
             </div>

@@ -2,7 +2,7 @@
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  margin-right: 2cm;
+  margin-right: 1cm;
   margin-top: 1cm;
   font-family: Laila;
 }
@@ -39,6 +39,7 @@
 .instruction {
   font-weight: bolder;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .list {

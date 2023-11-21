@@ -3,6 +3,7 @@
   width: 30%;
   overflow: hidden;
   margin: 40px;
+  margin-right: 0;
   width: 60%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -30,6 +31,7 @@
 }
 .image {
   width: 100%;
+  height: auto;
 }
 
 .btnCont {

@@ -1,11 +1,33 @@
 .main {
   display: flex;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 30px 0 10px 0;
   width: 100%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.imageCont {
+  width: 100px;
+  height: 100px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .otherCont {
-  float: right;
+  margin-left: 50px;
+}
+.nameCont {
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.amount {
+  font-size: large;
 }
