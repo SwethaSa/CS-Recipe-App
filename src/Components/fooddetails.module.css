@@ -1,0 +1,50 @@
+.container {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-right: 2cm;
+  margin-top: 1cm;
+  font-family: Laila;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
+.image:hover {
+  transform: translate(2px);
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.spans {
+  display: flex;
+  gap: 50px;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 20px 0 30px 0;
+}
+
+.serving {
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 20px 0 20px 0;
+}
+
+.instruction {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.list {
+  font-size: large;
+  font-weight: 800;
+  color: rgb(1, 56, 10);
+  padding: 10px;
+  text-align: justify;
+}

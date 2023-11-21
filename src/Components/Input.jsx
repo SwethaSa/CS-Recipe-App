@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import styles from "./input.module.css";
 
 export default function Input({ foodData, setFoodData }) {
-  let [query, setQuery] = useState("");
+  let [query, setQuery] = useState("jamun");
 
   let handleChange = (e) => {
     setQuery(e.target.value);
   };
-  let apiKey = "5347978895fc4e2ea96d9a2e5df9ff41";
+  let apiKey = "35a14e929af6462ba5e6ec26644ba091";
   let URL = `https://api.spoonacular.com/recipes/complexSearch?query=${query}&apiKey=${apiKey}`;
   useEffect(() => {
     let myFood = async () => {

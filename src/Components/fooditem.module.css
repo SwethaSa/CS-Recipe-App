@@ -1,10 +1,9 @@
 .main {
-  background-color: white;
   border-radius: 8px;
   width: 30%;
   overflow: hidden;
   margin: 40px;
-  width: 300px;
+  width: 60%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -15,7 +14,6 @@
 }
 
 .btn {
-  margin-left: 100px;
   margin-bottom: 20px;
   padding: 8px;
   background-color: gold;
@@ -32,4 +30,10 @@
 }
 .image {
   width: 100%;
+}
+
+.btnCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
